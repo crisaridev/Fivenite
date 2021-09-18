@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    background:#2a2a2a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 51.8px;
+    font-weight: 700;
+}
+.header-img {
+    width: 2.0em;
+    height: 2.0em;
+    margin-left: 20px;
+}
+.header-img__logo {
+    height: 51px;
+}
+.header p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .75em;
+    letter-spacing: .075em;
+}
+.header-user {
+    width: 1.3em;
+}
+.header-div__download {
+    background-color: #FFFF01;
+    color: #2A2A2A;
+    width: 128px;
+    height: 51.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main-div__img {
+    width: 100%;
+    height: 100%;
+}
+.main-divp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.main-divp img {
+    width: 65%;
+    height: 40%;
+    margin-top: -50px;
+    font-size: 600px;
+}
+.main-divp h2 {
+    font-family: "Burbank Big Condensed Bold";
+    color: #4DCCFA;;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    
+}
+.main-divp p {
+    font-family: "Burbank Big Condensed Bold";
+    margin-bottom: 178px;
+    margin-top: 16px;
+}
+.main-divtext {
+    width: 600px;
+    text-align: center ;
+}
+footer {
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+footer img {
+    height: 40px;
+    width: 80px;
+}
+.footer-menu {
+    display: flex;
+    color: #CCCCCC;
+    margin: 15px 794px 44px 120px;
+    width: 50%;
+}
+footer img {
+    margin-left: 115px;
+    margin-top: 68px
+}
+.footer-menu ul {
+    list-style: none;
+    font-family: "Open Sans";
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 13px;
+    padding: 0;
+    margin-right: 35px;
+
+}
+.footer-menu ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Burbank Big Condensed Bold";
+    src: url("../fonts/Burbank\ Big\ Condensed\ Black.woff") format('woff');
+}
